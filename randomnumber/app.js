@@ -9,10 +9,10 @@ GAME FUNCTION:
 
 // Game Values
 let min = 1;
-    max = 10,
+    max = 1000,
     // winningNum = Math.floor(Math.random() * 10),
     winningNum = getRandomNum(min, max),
-    guessesLeft = 3;
+    guessesLeft = 5;
 
 // UI Elements
 const game = document.querySelector('#game'),
