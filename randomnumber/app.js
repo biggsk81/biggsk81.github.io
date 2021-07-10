@@ -35,8 +35,6 @@ game.addEventListener('mousedown', function(e) {
   }
 });
 
-
-
 // Listen for guess
 guessBtn.addEventListener('click', function(){
   let guess = parseInt(guessInput.value);
@@ -111,3 +109,4 @@ function setMessage(msg, color) {
   message.style.color = color;
   message.textContent = msg;
 }
+
