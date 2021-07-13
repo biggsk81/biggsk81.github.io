@@ -21,4 +21,9 @@ document.body.innerHTML ="<h1>" + "How long until Jacobs Birthday " + "<br>" +
 "Minutes: " + diffInMinutes + "<br>" +
 "Seconds: " + diffInSeconds + "<br>"
 
-console.log(diffDays)
+window.setTimeout(function () {
+  window.location.reload();
+  console.log('3 seconds');
+}, 3000);
+
+//console.log(diffDays)
